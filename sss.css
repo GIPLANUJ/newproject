@@ -1,0 +1,52 @@
+/* Add padding to containers */
+.app{
+	background-color:#455283;
+	border:2px solid black;
+	width:50%;
+	margin-left:25%;
+	margin-top:5%;
+	border-radius:25px;
+	
+}
+.container {
+  padding: 16px;
+  color:red;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width:100%;
+  padding:15px;
+  margin: 5px 0 22px 0;
+  border:black solid 2px;
+  background:white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color:pink;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border:1px solid white;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color:#B5386D;
+  color:black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border:black solid 1px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size:30px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
